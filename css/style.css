@@ -4,53 +4,27 @@
 }
 
 body{
-	font: normal 20px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 2em "Trebuchet MS", Helvetica, sans-serif;
+  color: #444;
 }
 
 header{
-
 }
 
 header h1{
-	color: #e0716a;
-	color: #fff !important;
-
-	text-align: center;
-	font: bold 3em 'Ubuntu Mono', "Trebuchet MS", Helvetica, sans-serif;
+  color:#3280ac;
+  color: #fff !important;
+  text-align: center;
+  font: normal 4em 'Cookie', cursive;
 }
 
 header h2{
 	color:#d7d246;
 	color: #fff !important;
-
 	text-align: center;
-	font: bold 3em "Trebuchet MS", Helvetica, sans-serif;
+	font: bold 2em "Trebuchet MS", Helvetica, sans-serif;
 	border-radius:40px;
 }
-
-header h3{
-	color:#3280ac;
-	color: #fff !important;
-
-	text-align: center;
-	font: normal 4em 'Cookie', cursive;
-}
-
-header h4{
-	text-align: center;
-	font: bold 1.2em 'Ubuntu Mono', "Trebuchet MS", Helvetica, sans-serif;
-	color: #222;
-	padding: 16px;
-	margin-top: 32px;
-	
-}
-
-header span{
-	padding: 16px;
-	background: #37996c;
-	border:4px solid #ccc;
-}
-
 
 
 /**
@@ -65,20 +39,37 @@ blocks
 #about{
 	padding: 32px;
 	background: #fcfcfc;
-	color:#ce421d;
+	/*color:#ce421d;*/
 }
 
-#services{
-	padding: 32px;
-	background: #bcb574;
-	background: #3d4f83;
-	color: #fff;
+#about h2{
+  color:#ce421d;
+}
+
+#social{
+  padding: 32px;
+  background: #3498db;
+  color: #fff;
+}
+
+#social h2{
+  color:#AED5F0;
 }
 
 #contact{
+	padding: 32px;
 	background: #3d4f83;
-	color:#fff;
+  color: #fff;
 }
+
+#contact h2{
+  color: #A5B4DF;
+}
+
+#contact h3{
+  color:#DEF5A0;
+}
+
 
 #footer{
   padding: 32px;
@@ -86,6 +77,9 @@ blocks
 	/*color: #efefef;*/
 }
 
+.container{
+  max-width: 1600px;
+}
 
 /* Side Menu */
 #sidebar-wrapper {
@@ -176,4 +170,8 @@ blocks
 
 .underline{
 	text-decoration: underline;
+}
+
+.cursive{
+  font-family: 'Cookie', cursive;
 }
